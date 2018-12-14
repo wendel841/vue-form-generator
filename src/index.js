@@ -1,4 +1,5 @@
 const component = require("./formGenerator.vue").default;
+const formGroupComponent = require("./formGroup.vue").default;
 const schema = require("./utils/schema.js");
 const validators = require("./utils/validators.js").default;
 const fieldComponents = require("./utils/fieldsLoader").default;
